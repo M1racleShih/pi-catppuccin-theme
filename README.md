@@ -18,18 +18,18 @@ Catppuccin themes for the [pi coding agent](https://pi.dev):
 ## 安装
 
 ```bash
-# git（推荐，便于多机同步）
-pi install git:github.com/<you>/pi-catppuccin-theme
-pi install git:github.com/<you>/pi-catppuccin-theme@v1.0.0   # 固定版本
-
 # npm
 pi install npm:pi-catppuccin-theme
+
+# git（便于多机同步 / 钉版本）
+pi install git:github.com/M1racleShih/pi-catppuccin-theme
+pi install git:github.com/M1racleShih/pi-catppuccin-theme@v1.0.0
 
 # 本地目录 / U 盘 / 解包的 tarball
 pi install /absolute/path/to/pi-catppuccin-theme
 
 # 只试用一次，不写进配置
-pi -e git:github.com/<you>/pi-catppuccin-theme
+pi -e git:github.com/M1racleShih/pi-catppuccin-theme
 ```
 
 然后在 pi 里 `/settings` → Theme 选 `catppuccin-latte/catppuccin-frappe`（或只选单个）。

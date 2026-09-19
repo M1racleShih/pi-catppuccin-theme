@@ -13,6 +13,14 @@
   ],
   "license": "MIT",
   "author": "Shq <shq@originqc.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1racleShih/pi-catppuccin-theme.git"
+  },
+  "homepage": "https://github.com/M1racleShih/pi-catppuccin-theme#readme",
+  "bugs": {
+    "url": "https://github.com/M1racleShih/pi-catppuccin-theme/issues"
+  },
   "files": [
     "themes",
     "README.md",
