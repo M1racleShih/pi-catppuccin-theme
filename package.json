@@ -1,0 +1,26 @@
+{
+  "name": "pi-catppuccin-theme",
+  "version": "1.0.0",
+  "description": "Catppuccin Frappé (dark) + Latte (light) themes for the pi coding agent, with automatic light/dark pairing. Themes only — no extensions, skills, or prompt templates.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "theme",
+    "catppuccin",
+    "frappe",
+    "latte",
+    "truecolor"
+  ],
+  "license": "MIT",
+  "author": "Shq <shq@originqc.com>",
+  "files": [
+    "themes",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "themes": [
+      "./themes"
+    ]
+  }
+}
